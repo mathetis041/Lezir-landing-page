@@ -42,6 +42,9 @@ main article{
     background-color:rgb(249, 252, 253);
     padding-bottom:160px;
 }
+main article section{
+    padding-top:150px;
+}
 main article section h1{
     font-size:38px;
     color:rgb(34, 34, 99);
@@ -82,13 +85,16 @@ button:hover{
     background-color:rgb(69, 20, 109);
 }
 .undraw-learning{
+    width:460px;
     margin-left:160px;
-    margin-top:60px;
+    margin-top:70px;
 }
 .center-section{
     display:flex;
     background-image:linear-gradient(15deg,rgb(249, 252, 253),white);
     height:700px;
+    padding-right:20px;
+    padding-left:70px;
 }
 .non-div{
     margin-top:220px;
@@ -245,6 +251,7 @@ footer p{
        margin-top:45px;
     }
     .center-section{
+        padding:30px;
         height:550px;
     }
     footer{
@@ -313,7 +320,6 @@ footer p{
         margin-left:0;
     }
     .first-divs{
-        margin-top:;
         margin-bottom:0;
         display:grid;
         justify-self:center;
@@ -362,6 +368,7 @@ footer p{
        margin-top:45px;
     }
     .center-section{
+        padding-left:0px;
         display:flex;
         flex-direction:column;
         height:850px;
